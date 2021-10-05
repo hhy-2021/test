@@ -1,0 +1,6 @@
+1.git init   //先在一个文件夹的
+2.git remote add origin "git@.....git"    //绑定仓库
+3.git add .     //.代表所有文件，也可以替换为一个文件的路径，将工作区代码添加到待提交区
+4.git commit -m “描述：first commit”    //添加描述
+5. git pull origin master      //拉取远程仓库代码，防止冲突  master可能换位main
+6. git push origin master     //提交，master==main
